@@ -5,13 +5,13 @@ function PrizeList(props) {
   return (
     <>
       <div>
-        <h3>Daily Games</h3>
-        <PrizeCard/>
+        <h3>Daily Ettas</h3>
+        <PrizeCard />
       </div>
 
       <div>
-        <h3>Weekly Games</h3>
-
+        <h3>Weekly Ettas</h3>
+        <PrizeCard />
       </div>
     </>
   );
