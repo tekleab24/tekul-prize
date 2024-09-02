@@ -4,7 +4,7 @@ const PrizeCard = () => {
   return (
     <div>
       <h1>hi</h1>
-      <img src="/assets/image1.svg" alt="prize pic" />
+      <img className="h-100" src="/assets/image2.png" alt="prize pic" />
       <h3>Prize Title</h3>
       <button>Etta Type</button>
       <p>Price</p>
