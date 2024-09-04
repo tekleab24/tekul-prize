@@ -1,17 +1,17 @@
 import React from "react";
-import PrizeCard from "./PrizeCard";
+import HorizontalPrizeCard from "./HorizontalPrizeCard";
 
 function PrizeList(props) {
   return (
     <>
       <div>
         <h3>Daily Ettas</h3>
-        <PrizeCard />
+        <HorizontalPrizeCard />
       </div>
 
       <div>
         <h3>Weekly Ettas</h3>
-        <PrizeCard />
+        <HorizontalPrizeCard />
       </div>
     </>
   );
