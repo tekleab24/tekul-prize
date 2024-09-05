@@ -3,17 +3,20 @@ import HorizontalPrizeCard from "./HorizontalPrizeCard";
 
 function PrizeList(props) {
   return (
-    <>
+    <div className="flex-row ">
       <div>
-        <h3>Daily Ettas</h3>
+        <h3 className="p-4 pb-0 font-bold text-lg">Daily Ettas</h3>
         <HorizontalPrizeCard />
       </div>
 
       <div>
-        <h3>Weekly Ettas</h3>
+        <h3 className="p-4 pb-0 font-bold text-lg">Weekly Ettas</h3>
+        <HorizontalPrizeCard />
+        <HorizontalPrizeCard />
+        <HorizontalPrizeCard />
         <HorizontalPrizeCard />
       </div>
-    </>
+    </div>
   );
 }
 
@@ -106,4 +109,3 @@ export default PrizeList;
 //     </ul>
 //   )
 // }
-

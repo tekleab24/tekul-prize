@@ -16,8 +16,8 @@ import { MoreVertical,
 
 export default function LeftSidebar({ Children }) {
   return (
-    <aside className="h-screen w-64">
-      <nav className="h-full flex-col bg-sllate-900 border-r shadow-sm">
+    <aside className="h-screen w-64 ">
+      <nav className="h-full flex-col bg-sllate-900 border-2 shadow-sm ">
         <div className="p-4 pb-2 flex justify-between items-center">
           <img
             src="https://img.logoipsum.com/254.svg"

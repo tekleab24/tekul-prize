@@ -7,7 +7,7 @@ import RightSidebar from "../components/RightSidebar";
 const Home = () => {
 
   return (
-    <div className=" flex flex-row">
+    <div className="flex flex-row bg-gray-100">
       <div>
         <LeftSidebar />
       </div>
