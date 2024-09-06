@@ -1,8 +1,8 @@
 export default function GotoLeaders(){
 return(
     <div className="h-64 bg-cyan-900 p-5 rounded-lg text-slate-200">
-        <h2 className="font-bold text-slate-400">LEADERBOARDS</h2>
-        <div className="flex py-3">
+        <h2 className="font-bold text-slate-300 text-lg">LEADERBOARDS</h2>
+        <div className="flex py-4">
             <div>
             <h4 className="font-bold text-lg">Good Job!</h4>
 
@@ -11,7 +11,7 @@ return(
             </p>
             </div>
             <img
-          className="h-20 rounded-md "
+          className="h-20 rounded-md opacity-50"
           src="./assets/profile-icon.jpeg"
           alt="prize pic"
         /> 
