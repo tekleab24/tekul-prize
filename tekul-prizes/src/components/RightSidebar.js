@@ -4,8 +4,9 @@ import { Album, Weight, Wine } from "lucide-react";
 import GotoLeaders from "./Cards/GotoLeadersBoardCard";
 import DailyEttas from "./EttaTypes/DailyEttas";
 
-function RightSidebar(props) {
+function RightSidebar() {
   return (
+
     <div className="w-80 p-4  h-full mr-4 ">
       <div className="">
         <div className="flex justify-between items-center py-4 font-semibold text-cyan-500">

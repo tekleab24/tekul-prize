@@ -1,7 +1,5 @@
 // import React from 'react';
 
-import { Children } from "react";
-
 import { MoreVertical, 
   ChevronLeft,
   LifeBuoy,
@@ -28,7 +26,7 @@ export default function LeftSidebar({ Children }) {
             <ChevronLeft />
           </button>
         </div>
-        <div className="flex-1 px-3">{Children}</div>
+        <ul className="flex-1 px-3">{Children}</ul>
 
         <div className="border-t flex p-3">
           <img
@@ -49,15 +47,12 @@ export default function LeftSidebar({ Children }) {
   );
 }
 
-export function LeftSidebarItem({ icon, text, active, alert }) {
-  return(
 
-    <li>
-      {icon}
-      <span>
-        {text}
-      </span>
-    </li>
-  )
-
+export function LeftSidebarMenuItem({icon, text, active, alert}){
+ return(
+  <li>
+    {icon}
+    <span>{text}</span>
+  </li>
+ )
 }

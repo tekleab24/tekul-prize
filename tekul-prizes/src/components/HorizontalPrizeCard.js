@@ -2,10 +2,10 @@ import React from "react";
 
 function HorizontalPrizeCard() {
   return (
-    <div className=" flex flex-row py-6 m-6 h-52 border-t  border-gray-200 overflow-hidden">
-      <div className="w-40">
+    <div className=" flex flex-row py-6 m-6 h-60 border-t w-full border-gray-200 overflow-hidden">
+      <div className="max-w-6">
         <img
-          className="h-24 w-24 rounded-md "
+          className=" rounded-md "
           src="./assets/profile-icon.jpeg"
           alt="prize pic"
         />
@@ -20,16 +20,14 @@ function HorizontalPrizeCard() {
         </div>
 
         <div className="">
-          <p className="mr-2 h-16">
-            Short Description. Upon touching this card it shall redrect them to
-            a single page dedicated to showing a the prize carShort Description.showing a the prize carShort Description.
-          </p>
+          <p className="mr-2 max-w-screen-sm max-h-16 overflow-hidden">
+            Short Description. </p>
           <div className="my-5">
-            <p className="font-bold text-zinc-700 mb-2">35 Ettas remaining</p>
-            <div className="flex">
+            <p className="font-bold text-zinc-700 py-5">35 Ettas remaining</p>
+            {/* <div className="flex">
               <div className="bg-slate-400 w-14 h-4 rounded-e rounded-xl"></div>
               <div className="bg-slate-200 w-24 h-4 rounded-s-none  rounded-xl"></div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

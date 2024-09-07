@@ -1,3 +1,5 @@
+import Button from "../ui-components/Button";
+
 export default function GotoLeaders(){
 return(
     <div className="h-64 bg-cyan-900 p-5 rounded-lg text-slate-200">
@@ -21,6 +23,7 @@ return(
           {" "}
           GO TO LEADERSBOARD
         </button>
+        <Button />
     </div>
 )
 }

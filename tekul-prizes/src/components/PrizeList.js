@@ -3,7 +3,7 @@ import HorizontalPrizeCard from "./HorizontalPrizeCard";
 
 function PrizeList(props) {
   return (
-    <div className="flex-row ">
+    <div className="flex-row justify-items-start w-96">
       <div>
         <h3 className="p-4 pb-0 font-bold text-lg">Daily Ettas</h3>
         <HorizontalPrizeCard />
